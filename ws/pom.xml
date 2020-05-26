@@ -12,7 +12,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.imatia</groupId>
-			<artifactId>projectFromArchetype-model</artifactId>
+			<artifactId>ontimize-boot-exercise-model</artifactId>
 		</dependency>
 	</dependencies>
 </project>

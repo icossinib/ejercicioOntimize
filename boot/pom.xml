@@ -16,20 +16,20 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.imatia</groupId>
-			<artifactId>projectFromArchetype-api</artifactId>
+			<artifactId>ontimize-boot-exercise-api</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>com.imatia</groupId>
-			<artifactId>projectFromArchetype-frontend</artifactId>
+			<artifactId>ontimize-boot-exercise-frontend</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.imatia</groupId>
-			<artifactId>projectFromArchetype-model</artifactId>
+			<artifactId>ontimize-boot-exercise-model</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.imatia</groupId>
-			<artifactId>projectFromArchetype-ws</artifactId>
+			<artifactId>ontimize-boot-exercise-ws</artifactId>
 		</dependency>
 	</dependencies>
 
