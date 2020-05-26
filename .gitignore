@@ -1,0 +1,18 @@
+#eclipse
+.project
+.classpath
+.configure
+.settings
+bin
+
+# intellij
+*.iml
+.idea
+.metadata
+
+#mvn
+target
+
+#logs
+log*
+
