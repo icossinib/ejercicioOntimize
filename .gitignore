@@ -18,3 +18,5 @@ log*
 
 #node
 node_modules
+
+model/src/main/db
