@@ -1,6 +1,7 @@
 
 package com.imatia.model.core.dao;
 
+import com.ontimize.db.EntityResult;
 import com.ontimize.jee.server.dao.common.ConfigurationFile;
 import com.ontimize.jee.server.dao.jdbc.OntimizeJdbcDaoSupport;
 import org.springframework.context.annotation.Lazy;
@@ -10,7 +11,6 @@ import org.springframework.stereotype.Repository;
 @Lazy
 @ConfigurationFile(configurationFile = "dao/CandidateDao.xml", configurationFilePlaceholder = "dao/placeholders.properties")
 public class CandidateDao extends OntimizeJdbcDaoSupport {
-
     public static final String ATTR_ID = "ID";
     public static final String ATTR_PHOTO = "PHOTO";
     public static final String ATTR_NAME = "NAME";
