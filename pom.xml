@@ -16,7 +16,7 @@
 
     <properties>
         <ontimize.boot.version>2.0.0</ontimize.boot.version>
-        <ontimize.jee.version>2.0.0</ontimize.jee.version>
+        <ontimize.jee.version>2.0.1</ontimize.jee.version>
         <basicproject.version>0.0.1</basicproject.version>
         <hsqldatabase.path>src/main/db</hsqldatabase.path>
         <database.url>jdbc:hsqldb:hsql://localhost:9013/templateDB</database.url>
@@ -71,6 +71,18 @@
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
                 <version>${hsqldb.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ontimize.jee</groupId>
+                <artifactId>ontimize-jee-server-rest</artifactId>
+                <version>${ontimize.jee.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ontimize.jee</groupId>
+                <artifactId>ontimize-jee-server-rest</artifactId>
+                <version>${ontimize.jee.version}</version>
+                <classifier>sources</classifier>
             </dependency>
 
         </dependencies>
