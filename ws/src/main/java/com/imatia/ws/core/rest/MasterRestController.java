@@ -16,7 +16,6 @@ public class MasterRestController extends ORestController<IMasterService> {
     @Autowired
     private IMasterService masterService;
 
-    
     @Override
     public IMasterService getService() {
         return this.masterService;
