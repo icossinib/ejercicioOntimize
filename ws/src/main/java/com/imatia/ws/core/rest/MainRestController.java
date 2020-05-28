@@ -3,6 +3,7 @@ package com.imatia.ws.core.rest;
 //import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 //import org.springframework.http.ResponseEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +16,7 @@ public class MainRestController {
 		return "index";
 	}
 	
-	/*public ResponseEntity<String> testRest() {
+	public ResponseEntity<String> testRest() {
 		return new ResponseEntity<>("It Works!", HttpStatus.OK);
-	}*/
+	}
 }
