@@ -18,7 +18,7 @@ public class OfferRestController extends ORestController<IOfferService> {
 
 	@Override
 	public IOfferService getService() {
-		// TODO Auto-generated method stub
+		
 		return this.offerService;
 	}
 
