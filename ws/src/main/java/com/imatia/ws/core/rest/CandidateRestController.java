@@ -1,4 +1,3 @@
-
 package com.imatia.ws.core.rest;
 
 import com.imatia.api.core.service.ICandidateService;
@@ -21,4 +20,5 @@ public class CandidateRestController extends ORestController<ICandidateService> 
     public ICandidateService getService() {
         return this.candidateService;
     }
+
 }
