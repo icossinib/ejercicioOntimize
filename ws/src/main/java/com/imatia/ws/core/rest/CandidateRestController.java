@@ -20,4 +20,6 @@ public class CandidateRestController extends ORestController<ICandidateService> 
     public ICandidateService getService() {
         return this.candidateService;
     }
+
+
 }
